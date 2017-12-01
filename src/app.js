@@ -1,3 +1,13 @@
-const css = require('./app.scss');
+import css from './app.scss';
+import React from 'react';
+import ReactDom from 'react-dom';
 
-console.log('Hello form app.js');
+class App extends React.Component {
+    render(){
+        return(            
+            <h1>Hello World!!</h1> 
+        )
+    }
+}
+
+ReactDom.render(<App />, document.getElementById('root'));
