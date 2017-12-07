@@ -1,7 +1,7 @@
 {
-  "name": "webpackBuild",
+  "name": "webpack-bootstrap",
   "version": "1.0.0",
-  "description": "Webpack Build with Bootstrap 3",
+  "description": "Webpack with bootstrap",
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server",

@@ -1,7 +1,18 @@
 @import 'customizations';
-body{
+body {
     font-family: "Arial", sans-serif;
 }
-h1{
+
+h1 {
     color: $brand-success;
+
+    &.larger {
+        font-size: 4rem;
+    }
+}
+header{
+    text-align: center;
+    padding: 20px 0;
+    background-color: #dedede;
+    margin-top: 30px;
 }
